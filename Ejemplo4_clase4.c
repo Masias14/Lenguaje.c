@@ -7,9 +7,9 @@ int main(){
 		printf("Seleccione la opcion a utilizar: \n");
 		printf("[1] Sumar dos numeros\n");
 		printf("[2] Restar dos numeros\n");
-		printf("[1] Multiplicar dos numeros\n");
-		printf("[1] Dividir dos numeros\n");
-		printf("[1] Salir\n");
+		printf("[3] Multiplicar dos numeros\n");
+		printf("[4] Dividir dos numeros\n");
+		printf("[5] Salir\n");
 		scanf("%d",&opcion);
 		switch(opcion){
 			case 1:
