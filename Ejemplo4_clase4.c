@@ -12,7 +12,7 @@ int main(){
 		printf("[5] Salir\n");
 		scanf("%d",&opcion);
 		switch(opcion){
-			case 1:
+			case 1: // si opcion = 1
 				printf("Introduzca el numero 1: ");
 				scanf("%g",&numero1);
 				printf("Introduzca el numero 2: ");
@@ -20,7 +20,7 @@ int main(){
 				resultado = numero1 + numero2;
 				printf("%g + %g = %g\n",numero1,numero2,resultado);
 				break;
-			case 2:
+			case 2: // si opcion = 2
 				printf("Introduzca el numero 1: ");
 				scanf("%g",&numero1);
 				printf("Introduzca el numero 2: ");
@@ -28,7 +28,7 @@ int main(){
 				resultado = numero1 - numero2;
 				printf("%g - %g = %g\n",numero1,numero2,resultado);
 				break;
-			case 3:
+			case 3: // si opcion = 3
 				printf("Introduzca el numero 1: ");
 				scanf("%g",&numero1);
 				printf("Introduzca el numero 2: ");
@@ -36,7 +36,7 @@ int main(){
 				resultado = numero1 * numero2;
 				printf("%g * %g = %g\n",numero1,numero2,resultado);
 				break;
-			case 4:
+			case 4: // si opcion = 4
 				printf("Introduzca el numero 1: ");
 				scanf("%g",&numero1);
 				printf("Introduzca el numero 2: ");
@@ -44,10 +44,10 @@ int main(){
 				resultado = numero1 / numero2;
 				printf("%g / %g = %g\n",numero1,numero2,resultado);
 				break;
-			case 5:
+			case 5: // si opcion = 5
 				printf("\n\n¡Hasta luego!");
 				break;				
-			default: 
+			default: // si opcion !1,2,3,4,5
 				printf("Opcion invalida");
 				break;
 		}
